@@ -1,6 +1,6 @@
 # 3d-cube
 
-**your dedicated card**
+** 3d cube rotating **
 
 ![view](https://github.com/danial-barati/cube/assets/104683176/986f8243-e2c1-477e-a5b1-e8413cef8a5e)
 
