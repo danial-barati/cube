@@ -4,7 +4,7 @@
 
 ![view](https://github.com/danial-barati/cube/assets/104683176/986f8243-e2c1-477e-a5b1-e8413cef8a5e)
 
-- 🔗 [demo](https://danial-barati.github.io/card/)
+- 🔗 [demo](https://danial-barati.github.io/cube/)
 
 - 👩🏻‍💻 Developed by danial barati
 
