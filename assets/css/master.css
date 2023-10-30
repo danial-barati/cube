@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@keyframes rotate {
+  from {
+    transform: perspective(1800px) rotate3d(1, 1, 1, 0);
+  }
+  to {
+    transform: perspective(1800px) rotate3d(1, 1, 1, 360deg);
+  }
+}
+body {
+  background-color: black;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  margin: 300px auto;
+  border: 1px solid red;
+  position: relative;
+  transform-style: preserve-3d;
+  animation: rotate 10s linear infinite;
+}
+.box > div {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.box > div:nth-of-type(1) {
+  background-color: rgba(255, 20, 145, 0.5);
+}
+.box > div:nth-of-type(2) {
+  background-color: rgba(137, 43, 226, 0.5);
+  transform: translateZ(-200px);
+}
+.box > div:nth-of-type(3) {
+  background-color: rgba(173, 216, 230, 0.5);
+  transform-origin: top;
+  transform: rotateX(-90deg);
+}
+.box > div:nth-of-type(4) {
+  background-color: rgba(255, 217, 0, 0.5);
+  transform-origin: bottom;
+  transform: rotateX(90deg);
+}
+.box > div:nth-of-type(5) {
+  background-color: rgba(255, 0, 0, 0.5);
+  transform-origin: right;
+  transform: rotateY(-90deg);
+}
+.box > div:nth-of-type(6) {
+  background-color: rgba(0, 250, 154, 0.5);
+  transform-origin: left;
+  transform: rotateY(90deg);
+}/*# sourceMappingURL=master.css.map */
